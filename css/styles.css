@@ -107,16 +107,17 @@ img {
 .site-nav-item {
   margin-right: 50px;
 }
-.contacts-link,
 .site-nav-item:last-child {
   margin-right: 0;
 }
 .contacts-list {
+
 margin-right: 50px;
 }
-/* .site-nav-item {
-  color: var(--accent-text-color);
-} */
+.contacts-list:last-child {
+  
+  margin-right: 0px;
+}
 .site-auth {
   display: flex;
   margin-left: auto;
