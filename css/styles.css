@@ -97,8 +97,8 @@ img {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-right: 344px;
 }
+.site-nav-item a:hover,
 .site-nav a:hover,
 .site-nav a:focus,
 .site-nav .current {
@@ -111,9 +111,15 @@ img {
 .site-nav-item:last-child {
   margin-right: 0;
 }
-
+.contacts-list {
+margin-right: 50px;
+}
+/* .site-nav-item {
+  color: var(--accent-text-color);
+} */
 .site-auth {
   display: flex;
+  margin-left: auto;
 }
 .contacts-link {
   display: flex;
@@ -122,7 +128,7 @@ img {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-right: 50px;
+  
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -156,7 +162,8 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
-  border-color: var(--accent-text-color);
+  border: none;
+  padding: 10px 32px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -178,6 +185,10 @@ img {
 }
 .features {
   display: flex;
+  gap: 30px;
+}
+.grid-card {
+  flex-basis: calc((100% - 90px) / 4);
 }
 .job-list,
 .team-title {
@@ -185,13 +196,16 @@ img {
   gap: 30px;
   padding: 0;
 }
-
+.job-title {
+  padding-top: 0px;
+}
 .section-titles {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .text {
   color: var(--secondary-text-color);
@@ -223,15 +237,37 @@ img {
 }
 .team-names {
   text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 .team-specialty {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
   text-align: center;
+  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-
+.team-cards-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 /* footer */
 .footer {
   background-color: var(--footer-hero-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.logo-footer {
+  display: inline-block;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+margin-bottom: 20px;
 }
 .logo-studio {
   color: var(--background-heder-color);
@@ -254,7 +290,12 @@ img {
 .address:focus {
   color: var(--accent-text-color);
 }
-
+.address-list {
+  margin-bottom: 9px;
+}
+.address-list:last-child {
+  margin-bottom: 0;
+}
 /* Portfolio */
 .filters {
   display: flex;
@@ -300,6 +341,7 @@ img {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  margin-bottom: 4px;
 }
 .card-text-portfolio {
   color: var(--secondary-text-color);
