@@ -152,10 +152,11 @@ img {
   background: var(--accent-text-color);
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.18;
+  line-height: 1.88;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  border-color: var(--accent-text-color);
 }
 .hero-btn:hover,
 .hero-btn:focus {
